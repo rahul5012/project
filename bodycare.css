@@ -1,0 +1,848 @@
+/* navigation bar design */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@1,500&family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia:wght@100&family=Roboto+Condensed:ital,wght@1,300&family=Rubik+Bubbles&family=Rubik+Maps&display=swap');
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  background: rgb(69,252,222);
+  background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(188, 255, 157, 0.919) 69%);
+}
+
+
+* {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+/*    color: rgb(rgb(152, 244, 15), rgb(122, 231, 118), rgb(231, 119, 246));*/
+
+   
+}
+
+
+
+.nav{
+  position: relative;
+  top: 3px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: antiquewhite;
+  text-underline-offset: none;
+  
+  
+
+}
+.nav a{
+  float: left;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.li{
+  display: inline;
+  border: none;
+ 
+}
+
+.search {
+  float: right;
+  color: white;
+  padding: 20px 0px;
+  right: 60px;
+  
+} 
+.search input {
+  border: 2px double black;
+  border-radius: 14px;
+  padding: -10px 10px;
+  width: 380px;
+  height: 30px;
+  margin-left: 350px;
+} 
+
+
+
+header{ 
+  width: 100%;
+  height: 50px;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Logo{
+  padding-top: 0px;
+  color: rgb(44, 44, 44);
+  font-size: 1.15em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav ol{
+  display: flex;
+  list-style: none;
+}
+.nav ol li{
+  margin: 1em;
+}
+.nav ol li a{
+  text-decoration: none;
+  padding: 0.2em 1.2em 0.9em 1.2em;
+  border-radius: 10px 10px 0 0;
+  color: rgb(39, 39, 39);
+  transition: all .4s;
+  position: relative;
+  z-index: 1;
+}
+.nav ol li a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 41px;
+  border-radius: 10px 10px 0 0;
+  background: #853333;
+  transform-origin: bottom;
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  transform: scaleY(0.05);
+  z-index: -1;
+  transition: all .4s;
+}
+.nav ol li a:hover::before{
+  transform: scaleY(1.1);
+}
+.nav ol li a:hover{
+  color: white;
+}
+
+.btn{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  display: none;
+}
+.btn::before{
+  content: '\f0c9';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(254, 217, 82);
+  border: 2px solid red;
+  margin-top: 20px;
+ display: inline;
+ list-style: none;
+ font-size: 40px;
+ 
+}
+.logo{
+  margin-left:20px;
+  
+}
+
+
+.mdiv2{
+    height: 80px;
+    width: 100%;
+    background-color: palevioletred;
+    text-shadow: 100px;
+    border-radius: 20px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+
+    
+}
+.mdiv2 h3{
+    position: relative;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px 100px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .mdiv3{
+    margin-left: 10px;
+    position: relative;
+    margin-top: 0px;
+    height: 1000px;
+    width: 100%;
+    
+
+    
+  }
+  .c1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,l-image,i-Best_seller_700x700base_gUMVzNGWt_.png,lfo-top_right,l-end,dpr-2/static/img/product/351278/good-vibes-papaya-brightening-face-wash-deep-pore-cleansing-non-drying-with-mulberry-no-parabens-no-mineral-oil-no-animal-testing-120-ml-92_3_display_1701330989_e1fde7f5.jpg);
+    border-image-slice: fill;
+    image-rendering: center;
+    image-resolution: center;
+
+  }
+  .c2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 330px;
+    background-color:yellow;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/360683/dot-and-key-vitamin-c-e-super-bright-moisturizer-with-kakadu-plum-ethyl-ascorbic-acid-sodium-ascorbyl-phosphate-for-all-skin-types-60-ml-54_6_display_1700568799_5dc9ccca.jpg);
+
+  }
+  .c3{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 620px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://www.lakmeindia.com/cdn/shop/files/22625_S3-8901030974359_600x.jpg?v=1696486347);
+
+  }
+  .c4{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 910px;
+    background-color: green;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://images.mamaearth.in/catalog/product/c/h/charcoal-face-scrub_ggm9dzcjohrgqecc.jpg?fit=contain&height=382);
+
+
+
+  }
+  .c5{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 1200px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://www.dotandkey.com/cdn/shop/files/haserum_360x.jpg?v=1692902929);
+
+  }
+
+.c11{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:50px;
+    background-color: red;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://bellavitaluxury.co.in/cdn/shop/files/DATEWOMAN.jpg?v=1696229821&width=360);
+    
+
+  }
+  .c22{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:330px;
+    background-color:yellow;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRqkpw2IOiKkMI2pJnqzKG0m0dHak4T6CZoHMBzfVImLB0KcWwCSGvG_IOIPNpivyKnrRDCobWw80xiNlJ4pbuRKS3F3yVHdeZUa_4ePQtkdrTZvok7XY8y&usqp=CAE);
+
+  }
+  .c33{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 620px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://www.reneecosmetics.in/cdn/shop/files/renee-eau-de-parfum-bloom-renee-cosmetics-1.jpg?v=1687788329);
+
+  }
+  .c44{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 910px;
+    background-color: green;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://mocemsa.com/cdn/shop/products/CREATIVEcopy_2_1080x.jpg?v=1681821046);
+
+
+
+  }
+  .c55{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:  1200px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://mocemsa.com/cdn/shop/products/MG_9687_1080x.jpg?v=1660831037);
+
+  }
+
+  .c1a
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:50px;
+    background-color: red;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/331638/alps-goodness-tea-tree-oil-lemon-and-climbazole-anti-dandruff-shampoo-for-oily-scalp-290ml-sulphate-free-shampoo-silicone-free-shampoo-gentle-and-mild-cleansing-shampoo-anti-dandruff-shampoo-shampoo-for-oily-hair-shampoo-for-oily-scalp_1_display_1665395847_e8e2ce57.jpg);
+    
+  }
+  .c2a
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:330px;
+    background-color:yellow;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/350135/good-vibes-smoothening-hair-serum-keratin-50ml_7_display_1696414360_c7b659a6.jpg);
+
+  }
+  .c3a
+  {
+     position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 620px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/345722/love-beauty-and-planet-argan-oil-and-lavender-hair-serum-for-frizz-free-hair-50ml_1_display_1676010903_e22e0eb5.jpg);
+
+
+  }
+  .c4a
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 910px;
+    background-color: green;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/202029/mamaearth-bhringamla-hair-oil-with-bhringraj-and-amla-for-intense-hair-treatment-250-ml_7_display_1593427795_d3339d73.jpg);
+
+
+  }
+  .c5a
+  {
+     position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:  1200px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/351660/alps-goodness-hibiscus-avocado-and-quinoa-cleansing-shampoo-for-curly-hair-enriched-with-vitamin-b3-105-ml_1_display_1697031561_f6b8d072.jpg);
+
+  }
+
+  .c1b
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:50px;
+    background-color: red;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/296947/daily-life-forever52-ultra-definition-liquid-foundation-flf014-30ml_1_display_1632228154_7ee3cfbe.jpg);
+    
+  }
+  .c2b
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:330px;
+    background-color:yellow;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/344554/ny-bae-liquid-lipstick-holiday-collection-mugs-and-hugs-4-gm-10-21_8_display_1693301258_e5f5d52a.jpg);
+
+  }
+  .c3b
+  {
+     position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 620px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/181248/lakme-absolute-mattreal-skin-natural-mousse-16h-01-ivory-fair-25-g-54_1_display_1565343434_f919e498.jpg);
+
+
+  }
+  .c4b
+  {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 910px;
+    background-color: green;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,l-image,i-purplle_exclusive_base_1_1_BytKq6D4b.png,lfo-top_right,l-end,dpr-2/static/img/product/291239/purplle-compact-with-spf-be-your-own-bff-beige-self-care-3-26_10_display_1665466735_2ea9af0b.jpg);
+
+
+  }
+  .c5b
+  {
+     position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:  1200px;
+    background-color: bisque;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,l-image,i-@@mediafiles@@mailers@@banners@@1659451450_new-tag.png,w-115,lfo-top_right,l-end,dpr-2/static/img/product/288617/purplle-make-a-splash-hydrating-face-primer-30-gm_10_display_1666080485_b4b5b808.jpg);
+
+  }
+
+  .new{
+
+    height: 300px;
+    width: 100%;
+    background-color: solid pink;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-shadow: #F8F8F8;
+  }
+  .new h2{
+    text-align: justify;
+    text-shadow: 100px;
+  }
+
+  .m1{
+    position: absolute;
+    height:300px ;
+    
+
+  }
+  .m2{
+    position: absolute;
+    height: 300px;
+    left: 950px;
+
+  }
+
+
+
+  header{ 
+    width: 100%;
+    height: 50px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    padding-top: 0px;
+    color: rgb(44, 44, 44);
+    font-size: 1.5em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav ol{
+    display: flex;
+    list-style: none;
+}
+.nav ol li{
+    margin: 1em;
+}
+.nav ol li a{
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em 1.2em;
+    border-radius: 10px 10px 0 0;
+    color: rgb(39, 39, 39);
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+}
+.nav ol li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    border-radius: 10px 10px 0 0;
+    background: #853333;
+    transform-origin: bottom;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    transform: scaleY(0.05);
+    z-index: -1;
+    transition: all .4s;
+}
+.nav ol li a:hover::before{
+    transform: scaleY(1.1);
+}
+.nav ol li a:hover{
+    color: white;
+}
+
+.btn{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: none;
+}
+.btn::before{
+    content: '\f0c9';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(254, 217, 82);
+    border: 2px solid red;
+    margin-top: 20px;
+   display: inline;
+   list-style: none;
+   font-size: 40px;
+   
+}
+.logo{
+    margin-left: 20px;
+}
+
+.H2{
+      
+    font-family: Kalnia wght@100;
+   font-size: 30px; 
+}
+.Ha{
+    text-align: center;
+
+    margin-top: 30px;
+}
+.Hb{
+    text-align: center;
+    margin-top: 350px;
+}
+
+.Hc{
+  text-align: center;
+  margin-top: 350px;
+}
+
+.s1{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+}
+
+.s2{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 350px;
+}
+
+.s3{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 670px;
+}
+.s4{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 900px;
+}
+.s5{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    left: 1210px;
+}
+
+.s11{
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 70px;
+}
+.s22{
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 330px;
+}
+.s33{
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 640px;
+}
+.s44{
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 930px;
+}
+.s55{
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 1230px;
+}
+
+.s11a{
+    text-align: center;
+    position: absolute;
+    top: 1060px;
+    left: 70px;
+}
+.s22a{
+    text-align: center;
+    position: absolute;
+    top:  1060px;
+    left: 330px;
+}
+.s33a{
+    text-align: center;
+    position: absolute;
+    top:  1060px;
+    left: 640px;
+}
+.s44a{
+    text-align: center;
+    position: absolute;
+    top: 1060px;
+    left: 930px;
+}
+.s55a{
+    text-align: center;
+    position: absolute;
+    top: 1060px;
+    left: 1230px;
+}
+
+.s11b{
+    text-align: center;
+    position: absolute;
+    top: 1440px;
+    left: 80px;
+}
+.s22b{
+    text-align: center;
+    position: absolute;
+    top: 1440px;
+    left: 340px;
+}
+.s33b{
+    text-align: center;
+    position: absolute;
+    top: 1440px;
+    left: 630px;
+}
+.s44b{
+    text-align: center;
+    position: absolute;
+    top: 1440px;
+    left: 930px;
+}
+.s55b{
+    text-align: center;
+    position: absolute;
+    top: 1440px;
+    left: 1230px;
+}
+
+
+.mdiv{
+  height: 500px;
+  background-image: url(https://www.dotandkey.com/cdn/shop/files/desk_1_38044391-7c16-4299-8534-d97db031080e.jpg?v=1702359273);
+  width: 100%;
+}
+
+.offer1{
+  position: absolute;
+  height: 300px;
+  top: 2520px;
+  left: 100px;
+  width: 100%;
+}
+.sale
+{
+    top: 100px;
+    height: 70px;
+    background-image: url(red.png);
+    color: white;
+    font-size: 50px ;
+    text-shadow: 2px white;
+
+
+}
+.video
+{
+    top: 800px;
+    height: 600px;
+    background-image: url(https://www.dior.com/couture/var/dior/storage/images/horizon/beauty/make-up/new-makeup/ecom-push-campaign-1/38970229-4-int-EN/ecom-push-campaign-1_1440_1200.jpg);
+
+}
+.video2
+{
+    top: 800px;
+    height: 500px;
+    background-image: url(https://www.dior.com/couture/var/dior/storage/images/horizon/beauty/make-up/new-makeup/ecom-push-campaign-3/39067299-15-int-EN/ecom-push-campaign-3_1440_1200.jpg);
+}
+.video3
+{
+    top: 870px;
+    height: 700px;
+    background-image: url(https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1703150850_hul_skin__makeup-2560x800.jpeg);
+}
+
+.main{
+    width: 100%;
+}
+
+
+
+/*==footer============================*/
+  footer{
+
+    margin-top: 798px;
+    background-color: #1a1b1c;
+    padding: 50px 20px;
+    border-top: 5px solid #4eb060;
+
+  }
+  .footer-container{
+    width: 200px;
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo a{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .footer-logo a span{
+    color: #63e67b;
+  }
+  .footer-social{
+    display: flex;
+    margin-top: 10px;
+  }
+  .footer-social a{
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0c0c;
+    border: 1px solid #e636c015;
+    font-size: 0.9rem;
+    margin: 0px 5px;
+    transition: all ease 0.3s;
+    text-decoration: none;
+  }
+  .footer-social a:hover{
+    background-color: #cdded0;
+    transition: all ease 0.3s;
+  }
+  .footer-links strong{
+    color: #ea0052;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .footer-links ul{
+    margin-top: 10px;
+  }
+  .footer-links ul li a{
+    color: #e9eadd;
+    opacity: 0.5;
+    margin: 4px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+  }
+  .footer-links li a:hover{
+    opacity: 1;
+    transition: allease0.3s;
+}
