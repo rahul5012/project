@@ -5,7 +5,7 @@ body{
     padding: 0px;
     font-family: poppins;
     background: rgb(69,252,222);
-    background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(188, 255, 157, 0.919) 69%);
+    background: linear-gradient(90deg, rgb(96, 195, 180) 20%, rgba(197, 153, 82, 0.919) 69%);
   }
   
   
@@ -13,7 +13,7 @@ body{
       position: relative;
       margin-top: 0px;
       margin-left: 0px;
-      color: rgb(rgb(152, 244, 15), rgb(122, 231, 118), rgb(231, 119, 246));
+      color: rgb(rgb(167, 234, 66), rgb(151, 237, 148), rgb(231, 119, 246));
      
   }
   
@@ -361,7 +361,7 @@ body{
   }
   .product-box{
     width: 100%;
-    border: 1px solid #eeeeee;
+    border: 1px solid black;
     border-radius: 20px;
     background-color: #ffffff;
     padding: 20px;

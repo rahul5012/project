@@ -83,7 +83,7 @@ margin-left: 250px;
   {
     font-size: 25px;
     font-family: Arial;
-    color: white;
+    color: solid white;
     margin-left: 200px;
 }
   .mdiv3{
@@ -135,7 +135,7 @@ margin-left: 250px;
   #h{
     font-size: 30px;
     margin-top: 20px;
-    color: #FF9933;
+    color: red;
     border-color: black;
     font-family: Arial;
     margin-left: 150px;
@@ -184,7 +184,7 @@ margin-left: 250px;
   #i
   {
     font-size: 20px;
-    color:#FFB266;
+    color:#c32148;
     margin-top: 10px;
     margin-left: 150px;
   }
@@ -196,7 +196,7 @@ margin-left: 250px;
   {
     font-size: 20px;
     margin-top: 10px;
-    color: #FFB266;
+    color: #c32148;
     margin-left: 250px;
   }
   #mid
@@ -321,7 +321,7 @@ margin-left: 250px;
     margin-left: 1070px;
     background-color: green;
     border-radius: 30px;
-    background-size: cover;
+    background-size: auto;
   }
   .c1:hover
   {
@@ -461,7 +461,7 @@ body{
   padding: 0px;
   font-family: poppins;
   background: rgb(69,252,222);
-  background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(188, 255, 157, 0.919) 69%);
+  background: linear-gradient(90deg, rgb(196, 220, 231) 20%, rgba(208, 249, 206, 0.919) 69%);
 }
 
 
@@ -609,7 +609,7 @@ header{
 .logo{
   margin-left:20px;
   margin-top: 0px;
-  
+  
 }
 
 .logo {

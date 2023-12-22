@@ -9,7 +9,7 @@ body{
   padding: 0px;
   font-family: poppins;
   background: rgb(69,252,222);
-  background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(188, 255, 157, 0.919) 69%);
+  background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(203, 165, 84, 0.919) 69%);
 }
 
 
@@ -436,10 +436,10 @@ header{
     width: 200px;
     margin-top: 20px;
     margin-left: 910px;
-    background-color: green;
+    background-color: none;
     border-radius: 30px;
     background-size: cover;
-    background-image: url(https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,l-image,i-purplle_exclusive_base_1_1_BytKq6D4b.png,lfo-top_right,l-end,dpr-2/static/img/product/291239/purplle-compact-with-spf-be-your-own-bff-beige-self-care-3-26_10_display_1665466735_2ea9af0b.jpg);
+    background-image: url(https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/187117/purplle-compact-once-in-a-lifetime-that-special-warm-beige-kiss-3-9-g_1_display_1574074169_225e8854.jpg);
 
 
   }
@@ -732,7 +732,7 @@ header{
 .offer1{
   position: absolute;
   height: 300px;
-  top: 2520px;
+  top: 2450px;
   left: 100px;
   width: 100%;
 }
