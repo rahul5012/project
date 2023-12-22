@@ -9,7 +9,7 @@ body{
   padding: 0px;
   font-family: poppins;
   background: rgb(69,252,222);
-  background: linear-gradient(90deg, rgb(44, 174, 230) 20%, rgba(203, 165, 84, 0.919) 69%);
+  background: linear-gradient(90deg, rgb(196, 220, 231) 20%, rgba(208, 249, 206, 0.919) 69%);
 }
 
 
@@ -156,7 +156,7 @@ header{
 }
 .logo{
   margin-left:20px;
-  
+
 }
 
 
@@ -578,7 +578,7 @@ header{
 
 .H2{
       
-    font-family: Kalnia wght@100;
+    font-family: Kalnia wght100;
    font-size: 30px; 
 }
 .Ha{
